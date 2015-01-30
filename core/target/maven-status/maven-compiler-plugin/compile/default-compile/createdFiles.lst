@@ -1,0 +1,16 @@
+org/apache/sling/hapi/impl/HApiUtilImpl.class
+org/apache/sling/hapi/HApiProperty.class
+org/apache/sling/hapi/impl/MicrodataAttributeHelperImpl.class
+org/apache/sling/hapi/impl/HApiPropertyImpl.class
+org/apache/sling/hapi/TypeView.class
+org/apache/sling/hapi/HApiUse.class
+org/apache/sling/hapi/HApiType.class
+org/apache/sling/hapi/impl/MicrodataAttributeHelperImpl$AttrMap.class
+org/apache/sling/hapi/HApiUtil.class
+org/apache/sling/hapi/MicrodataAttributeHelper.class
+org/apache/sling/hapi/impl/AbstractHapiTypeImpl.class
+org/apache/sling/hapi/HApiException.class
+org/apache/sling/hapi/impl/TypesCache.class
+org/apache/sling/hapi/impl/MicrodataAttributeHelperImpl$PropMap.class
+org/apache/sling/hapi/impl/HApiTypeImpl.class
+org/apache/sling/hapi/package-info.class

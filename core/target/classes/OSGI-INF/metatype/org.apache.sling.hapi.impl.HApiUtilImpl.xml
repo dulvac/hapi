@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/org.apache.sling.hapi.impl.HApiUtilImpl">
+    <OCD id="org.apache.sling.hapi.impl.HApiUtilImpl" name="%org.apache.sling.hapi.impl.HApiUtilImpl.name" description="%org.apache.sling.hapi.impl.HApiUtilImpl.description">
+        <AD id="org.apache.sling.hapi.tools.resourcetype" type="String" default="sling/hapi/components/type" name="%org.apache.sling.hapi.impl.HApiUtilImpl.org.apache.sling.hapi.tools.resourcetype.name" description="%org.apache.sling.hapi.impl.HApiUtilImpl.org.apache.sling.hapi.tools.resourcetype.description"/>
+        <AD id="org.apache.sling.hapi.tools.searchpaths" type="String" default="/libs/sling/hapi/types" name="%org.apache.sling.hapi.impl.HApiUtilImpl.org.apache.sling.hapi.tools.searchpaths.name" description="%org.apache.sling.hapi.impl.HApiUtilImpl.org.apache.sling.hapi.tools.searchpaths.description" cardinality="50"/>
+    </OCD>
+    <Designate pid="org.apache.sling.hapi.impl.HApiUtilImpl">
+        <Object ocdref="org.apache.sling.hapi.impl.HApiUtilImpl"/>
+    </Designate>
+</metatype:MetaData>

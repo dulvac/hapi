@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1422526928835
+Build-Jdk: 1.7.0_17
+Built-By: adulvac
+Bundle-Category: sling
+Bundle-Description: Sling Hypermedia Api demo content
+Bundle-DocURL: http://sling.apache.org
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: HApi Sample Content
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-SymbolicName: org.apache.sling.hapi.samplecontent
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Sling-Initial-Content: SLING-INF;overwrite=true
+Tool: Bnd-2.1.0.20130426-122213
