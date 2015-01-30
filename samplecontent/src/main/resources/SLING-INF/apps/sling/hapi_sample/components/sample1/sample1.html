@@ -29,23 +29,17 @@
 
     <div class="row">
         <div class="col-md-4">
-            <div data-sly-use.card="${'org.apache.sling.hapi.HApiUse' @type='/apps/sling/hapi_sample/types/pic_card'}"
+            <div data-sly-use.card="${'org.apache.sling.hapi.HApiUse' @type='/apps/sling/hapi_sample/types/album_card'}"
                  data-sly-attribute="${card.itemtype}" class="card-asset">
                 <a rel="self" href="details.html">
-                    <img data-sly-attribute="${card.itemprop.thumbnail}" class="show-grid" src="assets/preview-small.png" alt="">
+                    <img data-sly-attribute="${card.itemprop.thumbnail}" class="show-grid" src="assets/preview-small-album.png" alt="">
 
                     <div>
-                        <h4 data-sly-attribute="${card.itemprop['title']}">PIC 001</h4>
+                        <h4 data-sly-attribute="${card.itemprop['title']}">Christmas Eve 2014</h4>
 
-                        <p class="type">PSD</p>
+                        <p class="type">album</p>
 
-                        <p data-sly-attribute="${card.itemprop.resolution}"
-                           data-sly-use.resolution="${'org.apache.sling.hapi.HApiUse' @type=card.proptype.resolution}" class="resolution">
-                            <span data-sly-attribute="${resolution.itemprop.width}">1620</span> x <span
-                                data-sly-attribute="${resolution.itemprop.height}">670</span>
-                        </p>
-
-                        <p data-sly-attribute="${card.itemprop.size}" class="size">249KB</p>
+                        <p>Pictures: <span data-sly-attribute="${card.itemprop.cards}" class="size">5</span></p>
                         <meta data-sly-attribute="${card.itemprop.disabled}" content="false"/>
                         <div class="myinfo">
                             <p class="mymodified">
