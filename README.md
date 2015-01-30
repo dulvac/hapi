@@ -7,10 +7,13 @@ HApi tools work with [sightly](http://docs.adobe.com/docs/en/aem/6-0/develop/sig
 To see how the HApi implemetation works, read [How HApi works, by example](#section-3)
 
 # <a name="section-install">Installation</a>
-The two bundles, core and samplecontent need sightly installed on the sling instance.
-You can then install both with _mvn clean install sling:install_
-After that, to check the sample page go to http://lcoalhost:8080/apps/sling/hapi_sample/site/site.html and check out the sample page.
-See below for consuming the API with a generic client.
+  The two bundles, core and samplecontent need sightly installed on the sling instance.
+
+  You can then install both with _mvn clean install sling:install_
+
+  After that, to check the sample page go to http://lcoalhost:8080/apps/sling/hapi_sample/site/site.html and check out the sample page.
+
+  See below for consuming the API with a generic client.
 
 
 # <a name="section-2">Hypermedia API with Microdata</a>
