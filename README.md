@@ -11,7 +11,7 @@ To see how the HApi implemetation works, read [How HApi works, by example](#sect
 
   You can then install both with _mvn clean install sling:install_
 
-  After that, to check the sample page go to http://lcoalhost:8080/apps/sling/hapi_sample/site/site.html and check out the sample page.
+  After that, to check the sample page go to http://localhost:8080/apps/sling/hapi_sample/site/site.html and check out the sample page.
 
   See below for consuming the API with a generic client.
 
